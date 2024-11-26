@@ -26,6 +26,7 @@ cd peerconnect
 npm install
 ```
 
+```sh
 server/
 ├── API Test/
 │ └── [req.rest](http://_vscodecontentref_/1)
@@ -52,3 +53,4 @@ server/
 ├── .gitignore
 ├── [package.json](http://_vscodecontentref_/12)
 └── [README.md](http://_vscodecontentref_/13)
+```
