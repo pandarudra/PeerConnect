@@ -24,7 +24,7 @@ app.use(cookieParser());
 
 app.use("/api", router);
 socketinit(server);
-const peerServer = PeerServer({ port: 9000, path: "/peerjs" });
+const peerServer = PeerServer({ server, path: "/peerjs" });
 connectDB().then(() => {
   console.log("Database connected successfully");
   server.listen(process.env.PORT, () => {
